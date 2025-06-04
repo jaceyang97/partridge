@@ -1,9 +1,33 @@
-# Partridge Tiling
+# Partridge - 方块拼图游戏
 
-Interactive puzzle solver.
+一个使用React和TypeScript构建的交互式方块拼图游戏。
 
-## Run
+## 功能特性
 
-```
+- 拖拽放置1-9大小的方块
+- 预设游戏配置
+- 方块锁定/解锁功能  
+- 游戏面板导出为图片
+- 实时游戏统计分析
+
+## Analytics功能
+
+项目已集成Vercel Analytics，追踪以下用户行为：
+- 应用加载事件
+- 方块放置事件（包含方块大小和位置信息）
+- 方块移除事件
+- 游戏重置事件
+- 预设配置加载事件
+- 游戏面板下载事件
+
+## 运行项目
+
+```bash
 npm start
+```
+
+## 构建项目
+
+```bash
+npm run build
 ```

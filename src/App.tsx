@@ -1,5 +1,6 @@
-import React, { useState, useRef, useCallback } from 'react';
+import React, { useState, useRef, useCallback, useEffect } from 'react';
 import './App.css';
+import { track } from '@vercel/analytics';
 
 interface PlacedSquare {
   id: string;
@@ -80,6 +81,11 @@ const PRESETS: { [key: number]: PlacedSquare[] } = {
 };
 
 function App() {
+  // Track page view on component mount
+  useEffect(() => {
+    track('app_loaded');
+  }, []);
+
   // Calculate remaining counts after subtracting preset squares
   const getInitialCounts = (presetSquares: PlacedSquare[] = []) => {
     const presetCounts: { [key: number]: number } = {};
@@ -243,6 +249,13 @@ function App() {
       )
     );
 
+    // Track square placement event
+    track('square_placed', {
+      size: draggedSquare.size,
+      position: `${gridX},${gridY}`,
+      total_squares: placedSquares.length + 1
+    });
+
     setIsDragging(false);
     setDraggedSquare(null);
   }, [draggedSquare, placedSquares]);
@@ -252,6 +265,12 @@ function App() {
     
     const squareToRemove = placedSquares.find(s => s.id === squareId);
     if (!squareToRemove || squareToRemove.locked) return;
+
+    // Track square removal event
+    track('square_removed', {
+      size: squareToRemove.size,
+      total_squares: placedSquares.length - 1
+    });
 
     setPlacedSquares(prev => prev.filter(s => s.id !== squareId));
     setSquareCounts(prev =>
@@ -279,6 +298,12 @@ function App() {
     // Get the current preset squares (if any)
     const presetSquares = PRESETS[currentPreset] || [];
     
+    // Track board reset event
+    track('board_reset', {
+      preset: currentPreset,
+      squares_placed: placedSquares.filter(s => !s.locked).length
+    });
+    
     // Reset to the current preset's initial state
     setPlacedSquares(presetSquares);
     setSquareCounts(getInitialCounts(presetSquares));
@@ -290,6 +315,13 @@ function App() {
 
   const handleLoadPreset = (presetNumber: number) => {
     const presetSquares = PRESETS[presetNumber] || [];
+    
+    // Track preset load event
+    track('preset_loaded', {
+      preset_number: presetNumber,
+      preset_squares_count: presetSquares.length
+    });
+    
     setPlacedSquares(presetSquares);
     setSquareCounts(getInitialCounts(presetSquares));
     setCurrentPreset(presetNumber);
@@ -300,6 +332,12 @@ function App() {
   };
 
   const handleDownloadBoard = () => {
+    // Track board download event
+    track('board_downloaded', {
+      total_squares: placedSquares.length,
+      preset: currentPreset
+    });
+    
     const canvas = document.createElement('canvas');
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
