@@ -449,6 +449,7 @@ function App() {
             <li><a href="https://pyrigan.com/2017/02/17/the-partridge-puzzle/" target="_blank" rel="noopener noreferrer">The Partridge Puzzle by John Partridge</a></li>
             <li><a href="http://www.recmath.org/PolyCur/contiguous/index.html" target="_blank" rel="noopener noreferrer">Contiguous Reverse Partridge Tilings</a></li>
             <li><a href="https://erich-friedman.github.io/mathmagic/0607.html" target="_blank" rel="noopener noreferrer">Math Magic: Anti-Partridge Tilings</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Square_triangular_number" target="_blank" rel="noopener noreferrer">Square Triangular Numbers - Wikipedia</a></li>
           </ul>
         </div>
         
@@ -459,6 +460,17 @@ function App() {
             <li>Green=valid, Red=invalid</li>
             <li>Right-click to remove</li>
             <li>Double-click to lock/unlock</li>
+          </ul>
+        </div>
+        
+        <div className="related-section">
+          <p><strong>You may also be interested in:</strong></p>
+          <ul>
+            <li>
+              <a href="https://jspuzzle-lb.vercel.app/" target="_blank" rel="noopener noreferrer">
+                Puzzle Leaderboard
+              </a> - Rankings for Jane Street puzzles
+            </li>
           </ul>
         </div>
       </div>
