@@ -192,6 +192,7 @@ body {
   border-radius: var(--radius-md);
   font-size: 0.875rem;
   color: var(--gray-700);
+  margin-bottom: 1rem;
 }
 
 .instructions p {
@@ -210,7 +211,6 @@ body {
   margin-bottom: 0.5rem;
   line-height: 1.4;
   position: relative;
-  color: var(--gray-700);
 }
 
 .instructions li::before {
@@ -218,7 +218,55 @@ body {
   position: absolute;
   left: -1rem;
   color: var(--primary-blue);
-  font-weight: 700;
+  font-weight: 600;
+}
+
+/* Related Section */
+.related-section {
+  padding: 1rem;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  color: var(--gray-700);
+}
+
+.related-section p {
+  margin: 0 0 0.75rem 0;
+  font-weight: 600;
+  color: var(--gray-800);
+}
+
+.related-section ul {
+  margin: 0;
+  padding-left: 1rem;
+  list-style-type: none;
+}
+
+.related-section li {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  position: relative;
+}
+
+.related-section li::before {
+  content: '→';
+  position: absolute;
+  left: -1rem;
+  color: var(--primary-blue);
+  font-weight: 600;
+}
+
+.related-section a {
+  color: var(--primary-blue);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.related-section a:hover {
+  color: var(--primary-blue-hover);
+  text-decoration: underline;
 }
 
 /* Game Container */
@@ -365,17 +413,21 @@ body {
   font-weight: 700;
   color: var(--white);
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  cursor: context-menu;
+  cursor: grab;
   z-index: 2;
   transition: all 0.2s ease;
   user-select: none;
   box-sizing: border-box;
 }
 
-.placed-square:hover {
+.placed-square:hover:not(.locked) {
   transform: scale(1.05);
   box-shadow: var(--shadow-lg);
   z-index: 3;
+}
+
+.placed-square:active {
+  cursor: grabbing;
 }
 
 .placed-square.locked {

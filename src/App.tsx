@@ -95,203 +95,203 @@ const PRESETS: { [key: number]: PlacedSquare[] } = {
   ],
   3: [
     { id: 'preset-3-1', size: 9, x: 0, y: 0, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 9, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 18, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 27, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 36, locked: true },
-    { id: 'preset-3-1', size: 8, x: 9, y: 0, locked: true },
-    { id: 'preset-3-1', size: 8, x: 9, y: 8, locked: true },
-    { id: 'preset-3-1', size: 7, x: 9, y: 16, locked: true },
-    { id: 'preset-3-1', size: 9, x: 17, y: 0, locked: true },
-    { id: 'preset-3-1', size: 7, x: 17, y: 9, locked: true },
-    { id: 'preset-3-1', size: 5, x: 26, y: 0, locked: true },
-    { id: 'preset-3-1', size: 4, x: 26, y: 5, locked: true },
-    { id: 'preset-3-1', size: 2, x: 30, y: 5, locked: true },
-    { id: 'preset-3-1', size: 9, x: 36, y: 0, locked: true },
-    { id: 'preset-3-1', size: 7, x: 9, y: 38, locked: true },
-    { id: 'preset-3-1', size: 6, x: 16, y: 39, locked: true },
-    { id: 'preset-3-1', size: 6, x: 22, y: 39, locked: true },
-    { id: 'preset-3-1', size: 7, x: 16, y: 32, locked: true },
-    { id: 'preset-3-1', size: 5, x: 23, y: 34, locked: true },
-    { id: 'preset-3-1', size: 5, x: 23, y: 29, locked: true },
-    { id: 'preset-3-1', size: 3, x: 20, y: 29, locked: true },
-    { id: 'preset-3-1', size: 9, x: 28, y: 27, locked: true },
-    { id: 'preset-3-1', size: 9, x: 28, y: 36, locked: true },
-    { id: 'preset-3-1', size: 4, x: 41, y: 41, locked: true },
-    { id: 'preset-3-1', size: 4, x: 37, y: 41, locked: true },
-    { id: 'preset-3-1', size: 8, x: 37, y: 33, locked: true },
-    { id: 'preset-3-1', size: 8, x: 37, y: 25, locked: true },
-    { id: 'preset-3-1', size: 8, x: 37, y: 17, locked: true },
-    { id: 'preset-3-1', size: 6, x: 31, y: 15, locked: true },
-    { id: 'preset-3-1', size: 6, x: 31, y: 21, locked: true },
-    { id: 'preset-3-1', size: 3, x: 28, y: 24, locked: true },
+    { id: 'preset-3-2', size: 9, x: 0, y: 9, locked: true },
+    { id: 'preset-3-3', size: 9, x: 0, y: 18, locked: true },
+    { id: 'preset-3-4', size: 9, x: 0, y: 27, locked: true },
+    { id: 'preset-3-5', size: 9, x: 0, y: 36, locked: true },
+    { id: 'preset-3-6', size: 8, x: 9, y: 0, locked: true },
+    { id: 'preset-3-7', size: 8, x: 9, y: 8, locked: true },
+    { id: 'preset-3-8', size: 7, x: 9, y: 16, locked: true },
+    { id: 'preset-3-9', size: 9, x: 17, y: 0, locked: true },
+    { id: 'preset-3-10', size: 7, x: 17, y: 9, locked: true },
+    { id: 'preset-3-11', size: 5, x: 26, y: 0, locked: true },
+    { id: 'preset-3-12', size: 4, x: 26, y: 5, locked: true },
+    { id: 'preset-3-13', size: 2, x: 30, y: 5, locked: true },
+    { id: 'preset-3-14', size: 9, x: 36, y: 0, locked: true },
+    { id: 'preset-3-15', size: 7, x: 9, y: 38, locked: true },
+    { id: 'preset-3-16', size: 6, x: 16, y: 39, locked: true },
+    { id: 'preset-3-17', size: 6, x: 22, y: 39, locked: true },
+    { id: 'preset-3-18', size: 7, x: 16, y: 32, locked: true },
+    { id: 'preset-3-19', size: 5, x: 23, y: 34, locked: true },
+    { id: 'preset-3-20', size: 5, x: 23, y: 29, locked: true },
+    { id: 'preset-3-21', size: 3, x: 20, y: 29, locked: true },
+    { id: 'preset-3-22', size: 9, x: 28, y: 27, locked: true },
+    { id: 'preset-3-23', size: 9, x: 28, y: 36, locked: true },
+    { id: 'preset-3-24', size: 4, x: 41, y: 41, locked: true },
+    { id: 'preset-3-25', size: 4, x: 37, y: 41, locked: true },
+    { id: 'preset-3-26', size: 8, x: 37, y: 33, locked: true },
+    { id: 'preset-3-27', size: 8, x: 37, y: 25, locked: true },
+    { id: 'preset-3-28', size: 8, x: 37, y: 17, locked: true },
+    { id: 'preset-3-29', size: 6, x: 31, y: 15, locked: true },
+    { id: 'preset-3-30', size: 6, x: 31, y: 21, locked: true },
+    { id: 'preset-3-31', size: 3, x: 28, y: 24, locked: true },
   ],
   4: [
-    { id: 'preset-3-1', size: 9, x: 0, y: 0, locked: true },
-    { id: 'preset-3-1', size: 9, x: 9, y: 0, locked: true },
-    { id: 'preset-3-1', size: 8, x: 0, y: 9, locked: true },
-    { id: 'preset-3-1', size: 5, x: 0, y: 17, locked: true },
-    { id: 'preset-3-1', size: 5, x: 0, y: 22, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 27, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 36, locked: true },
-    { id: 'preset-3-1', size: 9, x: 9, y: 36, locked: true },
-    { id: 'preset-3-1', size: 9, x: 18, y: 36, locked: true },
-    { id: 'preset-3-1', size: 6, x: 18, y: 0, locked: true },
-    { id: 'preset-3-1', size: 6, x: 18, y: 6, locked: true },
-    { id: 'preset-3-1', size: 7, x: 8, y: 9, locked: true },
-    { id: 'preset-3-1', size: 3, x: 15, y: 9, locked: true },
-    { id: 'preset-3-1', size: 3, x: 5, y: 17, locked: true },
-    { id: 'preset-3-1', size: 4, x: 8, y: 16, locked: true },
-    { id: 'preset-3-1', size: 7, x: 5, y: 20, locked: true },
-    { id: 'preset-3-1', size: 7, x: 31, y: 0, locked: true },
-    { id: 'preset-3-1', size: 7, x: 38, y: 0, locked: true },
-    { id: 'preset-3-1', size: 8, x: 37, y: 7, locked: true },
-    { id: 'preset-3-1', size: 8, x: 37, y: 15, locked: true },
-    { id: 'preset-3-1', size: 8, x: 37, y: 23, locked: true },
-    { id: 'preset-3-1', size: 8, x: 37, y: 31, locked: true },
-    { id: 'preset-3-1', size: 6, x: 33, y: 39, locked: true },
-    { id: 'preset-3-1', size: 6, x: 39, y: 39, locked: true },
-    { id: 'preset-3-1', size: 4, x: 33, y: 15, locked: true },
-    { id: 'preset-3-1', size: 9, x: 28, y: 19, locked: true },
-    { id: 'preset-3-1', size: 5, x: 32, y: 28, locked: true },
-    { id: 'preset-3-1', size: 2, x: 35, y: 33, locked: true },
-    { id: 'preset-3-1', size: 4, x: 33, y: 35, locked: true },
+    { id: 'preset-4-1', size: 9, x: 0, y: 0, locked: true },
+    { id: 'preset-4-2', size: 9, x: 9, y: 0, locked: true },
+    { id: 'preset-4-3', size: 8, x: 0, y: 9, locked: true },
+    { id: 'preset-4-4', size: 5, x: 0, y: 17, locked: true },
+    { id: 'preset-4-5', size: 5, x: 0, y: 22, locked: true },
+    { id: 'preset-4-6', size: 9, x: 0, y: 27, locked: true },
+    { id: 'preset-4-7', size: 9, x: 0, y: 36, locked: true },
+    { id: 'preset-4-8', size: 9, x: 9, y: 36, locked: true },
+    { id: 'preset-4-9', size: 9, x: 18, y: 36, locked: true },
+    { id: 'preset-4-10', size: 6, x: 18, y: 0, locked: true },
+    { id: 'preset-4-11', size: 6, x: 18, y: 6, locked: true },
+    { id: 'preset-4-12', size: 7, x: 8, y: 9, locked: true },
+    { id: 'preset-4-13', size: 3, x: 15, y: 9, locked: true },
+    { id: 'preset-4-14', size: 3, x: 5, y: 17, locked: true },
+    { id: 'preset-4-15', size: 4, x: 8, y: 16, locked: true },
+    { id: 'preset-4-16', size: 7, x: 5, y: 20, locked: true },
+    { id: 'preset-4-17', size: 7, x: 31, y: 0, locked: true },
+    { id: 'preset-4-18', size: 7, x: 38, y: 0, locked: true },
+    { id: 'preset-4-19', size: 8, x: 37, y: 7, locked: true },
+    { id: 'preset-4-20', size: 8, x: 37, y: 15, locked: true },
+    { id: 'preset-4-21', size: 8, x: 37, y: 23, locked: true },
+    { id: 'preset-4-22', size: 8, x: 37, y: 31, locked: true },
+    { id: 'preset-4-23', size: 6, x: 33, y: 39, locked: true },
+    { id: 'preset-4-24', size: 6, x: 39, y: 39, locked: true },
+    { id: 'preset-4-25', size: 4, x: 33, y: 15, locked: true },
+    { id: 'preset-4-26', size: 9, x: 28, y: 19, locked: true },
+    { id: 'preset-4-27', size: 5, x: 32, y: 28, locked: true },
+    { id: 'preset-4-28', size: 2, x: 35, y: 33, locked: true },
+    { id: 'preset-4-29', size: 4, x: 33, y: 35, locked: true },
   ],
   5: [
-    { id: 'preset-3-1', size: 4, x: 0, y: 2, locked: true },
-    { id: 'preset-3-1', size: 7, x: 0, y: 6, locked: true },
-    { id: 'preset-3-1', size: 7, x: 0, y: 13, locked: true },
-    { id: 'preset-3-1', size: 5, x: 7, y: 6, locked: true },
-    { id: 'preset-3-1', size: 5, x: 12, y: 6, locked: true },
-    { id: 'preset-3-1', size: 9, x: 7, y: 11, locked: true },
-    { id: 'preset-3-1', size: 8, x: 0, y: 20, locked: true },
-    { id: 'preset-3-1', size: 8, x: 8, y: 20, locked: true },
-    { id: 'preset-3-1', size: 8, x: 0, y: 28, locked: true },
-    { id: 'preset-3-1', size: 8, x: 8, y: 28, locked: true },
-    { id: 'preset-3-1', size: 8, x: 16, y: 28, locked: true },
-    { id: 'preset-3-1', size: 9, x: 9, y: 36, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 36, locked: true },
-    { id: 'preset-3-1', size: 7, x: 22, y: 0, locked: true },
-    { id: 'preset-3-1', size: 7, x: 29, y: 0, locked: true },
-    { id: 'preset-3-1', size: 9, x: 36, y: 0, locked: true },
-    { id: 'preset-3-1', size: 5, x: 31, y: 7, locked: true },
-    { id: 'preset-3-1', size: 3, x: 42, y: 12, locked: true },
-    { id: 'preset-3-1', size: 6, x: 39, y: 15, locked: true },
-    { id: 'preset-3-1', size: 4, x: 33, y: 25, locked: true },
-    { id: 'preset-3-1', size: 8, x: 37, y: 21, locked: true },
-    { id: 'preset-3-1', size: 7, x: 31, y: 29, locked: true },
-    { id: 'preset-3-1', size: 7, x: 38, y: 29, locked: true },
-    { id: 'preset-3-1', size: 9, x: 36, y: 36, locked: true },
+    { id: 'preset-5-1', size: 4, x: 0, y: 2, locked: true },
+    { id: 'preset-5-2', size: 7, x: 0, y: 6, locked: true },
+    { id: 'preset-5-3', size: 7, x: 0, y: 13, locked: true },
+    { id: 'preset-5-4', size: 5, x: 7, y: 6, locked: true },
+    { id: 'preset-5-5', size: 5, x: 12, y: 6, locked: true },
+    { id: 'preset-5-6', size: 9, x: 7, y: 11, locked: true },
+    { id: 'preset-5-7', size: 8, x: 0, y: 20, locked: true },
+    { id: 'preset-5-8', size: 8, x: 8, y: 20, locked: true },
+    { id: 'preset-5-9', size: 8, x: 0, y: 28, locked: true },
+    { id: 'preset-5-10', size: 8, x: 8, y: 28, locked: true },
+    { id: 'preset-5-11', size: 8, x: 16, y: 28, locked: true },
+    { id: 'preset-5-12', size: 9, x: 9, y: 36, locked: true },
+    { id: 'preset-5-13', size: 9, x: 0, y: 36, locked: true },
+    { id: 'preset-5-14', size: 7, x: 22, y: 0, locked: true },
+    { id: 'preset-5-15', size: 7, x: 29, y: 0, locked: true },
+    { id: 'preset-5-16', size: 9, x: 36, y: 0, locked: true },
+    { id: 'preset-5-17', size: 5, x: 31, y: 7, locked: true },
+    { id: 'preset-5-18', size: 3, x: 42, y: 12, locked: true },
+    { id: 'preset-5-19', size: 6, x: 39, y: 15, locked: true },
+    { id: 'preset-5-20', size: 4, x: 33, y: 25, locked: true },
+    { id: 'preset-5-21', size: 8, x: 37, y: 21, locked: true },
+    { id: 'preset-5-22', size: 7, x: 31, y: 29, locked: true },
+    { id: 'preset-5-23', size: 7, x: 38, y: 29, locked: true },
+    { id: 'preset-5-24', size: 9, x: 36, y: 36, locked: true },
   ],
   6: [
-    { id: 'preset-3-1', size: 9, x: 0, y: 0, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 9, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 18, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 27, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 36, locked: true },
-    { id: 'preset-3-1', size: 4, x: 9, y: 0, locked: true },
-    { id: 'preset-3-1', size: 4, x: 13, y: 0, locked: true },
-    { id: 'preset-3-1', size: 7, x: 17, y: 0, locked: true },
-    { id: 'preset-3-1', size: 7, x: 24, y: 0, locked: true },
-    { id: 'preset-3-1', size: 7, x: 31, y: 0, locked: true },
-    { id: 'preset-3-1', size: 7, x: 38, y: 0, locked: true },
-    { id: 'preset-3-1', size: 8, x: 9, y: 37, locked: true },
-    { id: 'preset-3-1', size: 8, x: 9, y: 29, locked: true },
-    { id: 'preset-3-1', size: 3, x: 9, y: 26, locked: true },
-    { id: 'preset-3-1', size: 9, x: 17, y: 36, locked: true },
-    { id: 'preset-3-1', size: 7, x: 17, y: 29, locked: true },
-    { id: 'preset-3-1', size: 8, x: 25, y: 7, locked: true },
-    { id: 'preset-3-1', size: 6, x: 39, y: 7, locked: true },
-    { id: 'preset-3-1', size: 6, x: 33, y: 7, locked: true },
-    { id: 'preset-3-1', size: 9, x: 36, y: 13, locked: true },
-    { id: 'preset-3-1', size: 2, x: 34, y: 20, locked: true },
-    { id: 'preset-3-1', size: 7, x: 32, y: 22, locked: true },
-    { id: 'preset-3-1', size: 6, x: 39, y: 22, locked: true },
-    { id: 'preset-3-1', size: 6, x: 39, y: 28, locked: true },
-    { id: 'preset-3-1', size: 6, x: 39, y: 34, locked: true },
-    { id: 'preset-3-1', size: 5, x: 40, y: 40, locked: true },
-    { id: 'preset-3-1', size: 5, x: 35, y: 40, locked: true },
+    { id: 'preset-6-1', size: 9, x: 0, y: 0, locked: true },
+    { id: 'preset-6-2', size: 9, x: 0, y: 9, locked: true },
+    { id: 'preset-6-3', size: 9, x: 0, y: 18, locked: true },
+    { id: 'preset-6-4', size: 9, x: 0, y: 27, locked: true },
+    { id: 'preset-6-5', size: 9, x: 0, y: 36, locked: true },
+    { id: 'preset-6-6', size: 4, x: 9, y: 0, locked: true },
+    { id: 'preset-6-7', size: 4, x: 13, y: 0, locked: true },
+    { id: 'preset-6-8', size: 7, x: 17, y: 0, locked: true },
+    { id: 'preset-6-9', size: 7, x: 24, y: 0, locked: true },
+    { id: 'preset-6-10', size: 7, x: 31, y: 0, locked: true },
+    { id: 'preset-6-11', size: 7, x: 38, y: 0, locked: true },
+    { id: 'preset-6-12', size: 8, x: 9, y: 37, locked: true },
+    { id: 'preset-6-13', size: 8, x: 9, y: 29, locked: true },
+    { id: 'preset-6-14', size: 3, x: 9, y: 26, locked: true },
+    { id: 'preset-6-15', size: 9, x: 17, y: 36, locked: true },
+    { id: 'preset-6-16', size: 7, x: 17, y: 29, locked: true },
+    { id: 'preset-6-17', size: 8, x: 25, y: 7, locked: true },
+    { id: 'preset-6-18', size: 6, x: 39, y: 7, locked: true },
+    { id: 'preset-6-19', size: 6, x: 33, y: 7, locked: true },
+    { id: 'preset-6-20', size: 9, x: 36, y: 13, locked: true },
+    { id: 'preset-6-21', size: 2, x: 34, y: 20, locked: true },
+    { id: 'preset-6-22', size: 7, x: 32, y: 22, locked: true },
+    { id: 'preset-6-23', size: 6, x: 39, y: 22, locked: true },
+    { id: 'preset-6-24', size: 6, x: 39, y: 28, locked: true },
+    { id: 'preset-6-25', size: 6, x: 39, y: 34, locked: true },
+    { id: 'preset-6-26', size: 5, x: 40, y: 40, locked: true },
+    { id: 'preset-6-27', size: 5, x: 35, y: 40, locked: true },
   ],
   7: [
-    { id: 'preset-3-1', size: 9, x: 0, y: 0, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 9, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 18, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 27, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 36, locked: true },
-    { id: 'preset-3-1', size: 7, x: 9, y: 0, locked: true },
-    { id: 'preset-3-1', size: 8, x: 9, y: 7, locked: true },
-    { id: 'preset-3-1', size: 7, x: 9, y: 15, locked: true },
-    { id: 'preset-3-1', size: 7, x: 9, y: 22, locked: true },
-    { id: 'preset-3-1', size: 8, x: 9, y: 29, locked: true },
-    { id: 'preset-3-1', size: 8, x: 9, y: 37, locked: true },
-    { id: 'preset-3-1', size: 3, x: 17, y: 12, locked: true },
-    { id: 'preset-3-1', size: 7, x: 16, y: 15, locked: true },
-    { id: 'preset-3-1', size: 7, x: 17, y: 29, locked: true },
-    { id: 'preset-3-1', size: 9, x: 17, y: 36, locked: true },
-    { id: 'preset-3-1', size: 6, x: 22, y: 0, locked: true },
-    { id: 'preset-3-1', size: 9, x: 28, y: 0, locked: true },
-    { id: 'preset-3-1', size: 8, x: 37, y: 0, locked: true },
-    { id: 'preset-3-1', size: 4, x: 41, y: 16, locked: true },
-    { id: 'preset-3-1', size: 8, x: 37, y: 20, locked: true },
-    { id: 'preset-3-1', size: 8, x: 37, y: 28, locked: true },
-    { id: 'preset-3-1', size: 9, x: 36, y: 36, locked: true },
-    { id: 'preset-3-1', size: 5, x: 31, y: 40, locked: true },
-    { id: 'preset-3-1', size: 5, x: 26, y: 40, locked: true },
-    { id: 'preset-3-1', size: 2, x: 34, y: 38, locked: true },
-    { id: 'preset-3-1', size: 4, x: 26, y: 36, locked: true },
+    { id: 'preset-7-1', size: 9, x: 0, y: 0, locked: true },
+    { id: 'preset-7-2', size: 9, x: 0, y: 9, locked: true },
+    { id: 'preset-7-3', size: 9, x: 0, y: 18, locked: true },
+    { id: 'preset-7-4', size: 9, x: 0, y: 27, locked: true },
+    { id: 'preset-7-5', size: 9, x: 0, y: 36, locked: true },
+    { id: 'preset-7-6', size: 7, x: 9, y: 0, locked: true },
+    { id: 'preset-7-7', size: 8, x: 9, y: 7, locked: true },
+    { id: 'preset-7-8', size: 7, x: 9, y: 15, locked: true },
+    { id: 'preset-7-9', size: 7, x: 9, y: 22, locked: true },
+    { id: 'preset-7-10', size: 8, x: 9, y: 29, locked: true },
+    { id: 'preset-7-11', size: 8, x: 9, y: 37, locked: true },
+    { id: 'preset-7-12', size: 3, x: 17, y: 12, locked: true },
+    { id: 'preset-7-13', size: 7, x: 16, y: 15, locked: true },
+    { id: 'preset-7-14', size: 7, x: 17, y: 29, locked: true },
+    { id: 'preset-7-15', size: 9, x: 17, y: 36, locked: true },
+    { id: 'preset-7-16', size: 6, x: 22, y: 0, locked: true },
+    { id: 'preset-7-17', size: 9, x: 28, y: 0, locked: true },
+    { id: 'preset-7-18', size: 8, x: 37, y: 0, locked: true },
+    { id: 'preset-7-19', size: 4, x: 41, y: 16, locked: true },
+    { id: 'preset-7-20', size: 8, x: 37, y: 20, locked: true },
+    { id: 'preset-7-21', size: 8, x: 37, y: 28, locked: true },
+    { id: 'preset-7-22', size: 9, x: 36, y: 36, locked: true },
+    { id: 'preset-7-23', size: 5, x: 31, y: 40, locked: true },
+    { id: 'preset-7-24', size: 5, x: 26, y: 40, locked: true },
+    { id: 'preset-7-25', size: 2, x: 34, y: 38, locked: true },
+    { id: 'preset-7-26', size: 4, x: 26, y: 36, locked: true },
   ],
   8: [
-    { id: 'preset-3-1', size: 9, x: 0, y: 0, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 9, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 18, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 27, locked: true },
-    { id: 'preset-3-1', size: 9, x: 9, y: 0, locked: true },
-    { id: 'preset-3-1', size: 9, x: 18, y: 0, locked: true },
-    { id: 'preset-3-1', size: 7, x: 9, y: 9, locked: true },
-    { id: 'preset-3-1', size: 7, x: 9, y: 16, locked: true },
-    { id: 'preset-3-1', size: 6, x: 16, y: 9, locked: true },
-    { id: 'preset-3-1', size: 6, x: 16, y: 15, locked: true },
-    { id: 'preset-3-1', size: 7, x: 22, y: 14, locked: true },
-    { id: 'preset-3-1', size: 5, x: 22, y: 9, locked: true },
-    { id: 'preset-3-1', size: 8, x: 16, y: 21, locked: true },
-    { id: 'preset-3-1', size: 4, x: 27, y: 0, locked: true },
-    { id: 'preset-3-1', size: 5, x: 31, y: 0, locked: true },
-    { id: 'preset-3-1', size: 9, x: 36, y: 0, locked: true },
-    { id: 'preset-3-1', size: 2, x: 34, y: 5, locked: true },
-    { id: 'preset-3-1', size: 7, x: 38, y: 9, locked: true },
-    { id: 'preset-3-1', size: 7, x: 38, y: 16, locked: true },
-    { id: 'preset-3-1', size: 8, x: 37, y: 23, locked: true },
-    { id: 'preset-3-1', size: 3, x: 42, y: 34, locked: true },
-    { id: 'preset-3-1', size: 8, x: 37, y: 37, locked: true },
-    { id: 'preset-3-1', size: 8, x: 29, y: 37, locked: true },
-    { id: 'preset-3-1', size: 4, x: 25, y: 41, locked: true },
+    { id: 'preset-8-1', size: 9, x: 0, y: 0, locked: true },
+    { id: 'preset-8-2', size: 9, x: 0, y: 9, locked: true },
+    { id: 'preset-8-3', size: 9, x: 0, y: 18, locked: true },
+    { id: 'preset-8-4', size: 9, x: 0, y: 27, locked: true },
+    { id: 'preset-8-5', size: 9, x: 9, y: 0, locked: true },
+    { id: 'preset-8-6', size: 9, x: 18, y: 0, locked: true },
+    { id: 'preset-8-7', size: 7, x: 9, y: 9, locked: true },
+    { id: 'preset-8-8', size: 7, x: 9, y: 16, locked: true },
+    { id: 'preset-8-9', size: 6, x: 16, y: 9, locked: true },
+    { id: 'preset-8-10', size: 6, x: 16, y: 15, locked: true },
+    { id: 'preset-8-11', size: 7, x: 22, y: 14, locked: true },
+    { id: 'preset-8-12', size: 5, x: 22, y: 9, locked: true },
+    { id: 'preset-8-13', size: 8, x: 16, y: 21, locked: true },
+    { id: 'preset-8-14', size: 4, x: 27, y: 0, locked: true },
+    { id: 'preset-8-15', size: 5, x: 31, y: 0, locked: true },
+    { id: 'preset-8-16', size: 9, x: 36, y: 0, locked: true },
+    { id: 'preset-8-17', size: 2, x: 34, y: 5, locked: true },
+    { id: 'preset-8-18', size: 7, x: 38, y: 9, locked: true },
+    { id: 'preset-8-19', size: 7, x: 38, y: 16, locked: true },
+    { id: 'preset-8-20', size: 8, x: 37, y: 23, locked: true },
+    { id: 'preset-8-21', size: 3, x: 42, y: 34, locked: true },
+    { id: 'preset-8-22', size: 8, x: 37, y: 37, locked: true },
+    { id: 'preset-8-23', size: 8, x: 29, y: 37, locked: true },
+    { id: 'preset-8-24', size: 4, x: 25, y: 41, locked: true },
   ],
   9: [
-    { id: 'preset-3-1', size: 6, x: 0, y: 0, locked: true },
-    { id: 'preset-3-1', size: 6, x: 6, y: 0, locked: true },
-    { id: 'preset-3-1', size: 6, x: 12, y: 0, locked: true },
-    { id: 'preset-3-1', size: 5, x: 18, y: 0, locked: true },
-    { id: 'preset-3-1', size: 4, x: 23, y: 0, locked: true },
-    { id: 'preset-3-1', size: 8, x: 0, y: 6, locked: true },
-    { id: 'preset-3-1', size: 8, x: 8, y: 6, locked: true },
-    { id: 'preset-3-1', size: 9, x: 0, y: 36, locked: true },
-    { id: 'preset-3-1', size: 9, x: 9, y: 36, locked: true },
-    { id: 'preset-3-1', size: 9, x: 18, y: 36, locked: true },
-    { id: 'preset-3-1', size: 9, x: 27, y: 36, locked: true },
-    { id: 'preset-3-1', size: 9, x: 36, y: 36, locked: true },
-    { id: 'preset-3-1', size: 7, x: 0, y: 29, locked: true },
-    { id: 'preset-3-1', size: 7, x: 0, y: 22, locked: true },
-    { id: 'preset-3-1', size: 8, x: 7, y: 28, locked: true },
-    { id: 'preset-3-1', size: 8, x: 15, y: 28, locked: true },
-    { id: 'preset-3-1', size: 8, x: 23, y: 28, locked: true },
-    { id: 'preset-3-1', size: 9, x: 36, y: 18, locked: true },
-    { id: 'preset-3-1', size: 9, x: 36, y: 27, locked: true },
-    { id: 'preset-3-1', size: 5, x: 31, y: 31, locked: true },
-    { id: 'preset-3-1', size: 5, x: 31, y: 26, locked: true },
-    { id: 'preset-3-1', size: 5, x: 31, y: 21, locked: true },
-    { id: 'preset-3-1', size: 7, x: 24, y: 21, locked: true },
-    { id: 'preset-3-1', size: 4, x: 20, y: 24, locked: true },
-    { id: 'preset-3-1', size: 3, x: 7, y: 25, locked: true },
+    { id: 'preset-9-1', size: 6, x: 0, y: 0, locked: true },
+    { id: 'preset-9-2', size: 6, x: 6, y: 0, locked: true },
+    { id: 'preset-9-3', size: 6, x: 12, y: 0, locked: true },
+    { id: 'preset-9-4', size: 5, x: 18, y: 0, locked: true },
+    { id: 'preset-9-5', size: 4, x: 23, y: 0, locked: true },
+    { id: 'preset-9-6', size: 8, x: 0, y: 6, locked: true },
+    { id: 'preset-9-7', size: 8, x: 8, y: 6, locked: true },
+    { id: 'preset-9-8', size: 9, x: 0, y: 36, locked: true },
+    { id: 'preset-9-9', size: 9, x: 9, y: 36, locked: true },
+    { id: 'preset-9-10', size: 9, x: 18, y: 36, locked: true },
+    { id: 'preset-9-11', size: 9, x: 27, y: 36, locked: true },
+    { id: 'preset-9-12', size: 9, x: 36, y: 36, locked: true },
+    { id: 'preset-9-13', size: 7, x: 0, y: 29, locked: true },
+    { id: 'preset-9-14', size: 7, x: 0, y: 22, locked: true },
+    { id: 'preset-9-15', size: 8, x: 7, y: 28, locked: true },
+    { id: 'preset-9-16', size: 8, x: 15, y: 28, locked: true },
+    { id: 'preset-9-17', size: 8, x: 23, y: 28, locked: true },
+    { id: 'preset-9-18', size: 9, x: 36, y: 18, locked: true },
+    { id: 'preset-9-19', size: 9, x: 36, y: 27, locked: true },
+    { id: 'preset-9-20', size: 5, x: 31, y: 31, locked: true },
+    { id: 'preset-9-21', size: 5, x: 31, y: 26, locked: true },
+    { id: 'preset-9-22', size: 5, x: 31, y: 21, locked: true },
+    { id: 'preset-9-23', size: 7, x: 24, y: 21, locked: true },
+    { id: 'preset-9-24', size: 4, x: 20, y: 24, locked: true },
+    { id: 'preset-9-25', size: 3, x: 7, y: 25, locked: true },
   ],
 };
 
@@ -330,9 +330,15 @@ function App() {
   const [previewPosition, setPreviewPosition] = useState<{ x: number; y: number; size: number; valid: boolean } | null>(null);
   const boardRef = useRef<HTMLDivElement>(null);
 
-  const handleDragStart = (e: React.DragEvent, size: number) => {
-    const id = `square-${size}-${Date.now()}-${Math.random()}`;
-    setDraggedSquare({ size, id });
+  const handleDragStart = (e: React.DragEvent, size: number, existingSquareId?: string) => {
+    if (existingSquareId) {
+      // Dragging an existing placed square
+      setDraggedSquare({ size, id: existingSquareId });
+    } else {
+      // Dragging from toolbar
+      const id = `square-${size}-${Date.now()}-${Math.random()}`;
+      setDraggedSquare({ size, id });
+    }
     setIsDragging(true);
     e.dataTransfer.effectAllowed = 'move';
     e.dataTransfer.setData('text/plain', size.toString());
@@ -428,8 +434,13 @@ function App() {
       return;
     }
 
-    // Check for overlaps with existing squares
+    // Check if this is an existing square being repositioned
+    const existingSquare = placedSquares.find(s => s.id === draggedSquare.id);
+    const isRepositioning = !!existingSquare;
+
+    // Check for overlaps with existing squares (excluding the one being moved)
     const wouldOverlap = placedSquares.some(square => {
+      if (isRepositioning && square.id === draggedSquare.id) return false; // Ignore the square being moved
       return !(
         gridX >= square.x + square.size ||
         gridX + draggedSquare.size <= square.x ||
@@ -445,31 +456,50 @@ function App() {
       return;
     }
 
-    // Place the square
-    const newSquare: PlacedSquare = {
-      id: draggedSquare.id,
-      size: draggedSquare.size,
-      x: gridX,
-      y: gridY,
-      locked: false,
-    };
+    if (isRepositioning) {
+      // Update existing square position
+      console.log('Repositioning square:', draggedSquare.id);
+      setPlacedSquares(prev =>
+        prev.map(square =>
+          square.id === draggedSquare.id
+            ? { ...square, x: gridX, y: gridY }
+            : square
+        )
+      );
 
-    console.log('Placing square:', newSquare);
-    setPlacedSquares(prev => [...prev, newSquare]);
-    setSquareCounts(prev =>
-      prev.map(count =>
-        count.size === draggedSquare.size
-          ? { ...count, remaining: count.remaining - 1 }
-          : count
-      )
-    );
+      // Track square repositioning event
+      track('square_repositioned', {
+        size: draggedSquare.size,
+        new_position: `${gridX},${gridY}`,
+        total_squares: placedSquares.length
+      });
+    } else {
+      // Place new square from toolbar
+      const newSquare: PlacedSquare = {
+        id: draggedSquare.id,
+        size: draggedSquare.size,
+        x: gridX,
+        y: gridY,
+        locked: false,
+      };
 
-    // Track square placement event
-    track('square_placed', {
-      size: draggedSquare.size,
-      position: `${gridX},${gridY}`,
-      total_squares: placedSquares.length + 1
-    });
+      console.log('Placing new square:', newSquare);
+      setPlacedSquares(prev => [...prev, newSquare]);
+      setSquareCounts(prev =>
+        prev.map(count =>
+          count.size === draggedSquare.size
+            ? { ...count, remaining: count.remaining - 1 }
+            : count
+        )
+      );
+
+      // Track square placement event
+      track('square_placed', {
+        size: draggedSquare.size,
+        position: `${gridX},${gridY}`,
+        total_squares: placedSquares.length + 1
+      });
+    }
 
     setIsDragging(false);
     setDraggedSquare(null);
@@ -767,6 +797,9 @@ function App() {
                     : SQUARE_COLORS[square.size],
                   opacity: square.locked ? 0.8 : 1,
                 }}
+                draggable={!square.locked}
+                onDragStart={(e) => !square.locked && handleDragStart(e, square.size, square.id)}
+                onDragEnd={handleDragEnd}
                 onContextMenu={(e) => handleRightClick(e, square.id)}
                 onDoubleClick={(e) => handleSquareDoubleClick(e, square.id)}
               >
